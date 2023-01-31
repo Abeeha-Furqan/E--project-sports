@@ -273,15 +273,9 @@
 /* football cards */
 
 
-.row {
-	display: flex;
-	flex-wrap: wrap;
- }
- 
- .row > div[class*='col-'] {
-   display: flex;
- }
- 
+.stratigies{
+	box-shadow: 2px 2px 2px #000000;
+}
 
 
 
