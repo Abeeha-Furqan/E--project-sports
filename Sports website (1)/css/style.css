@@ -631,7 +631,21 @@ body{background: #f9f9f9;font-size: 16px;font-family: 'Raleway', sans-serif}
 
   /* text cards */
 
+<<<<<<< Updated upstream
 /* vedio cards  */
 .card-group {
   margin: 1em auto;
 }
+=======
+  @media only screen and (min-width: 768px) {
+    iframe{
+      height: 13em;
+    }
+    .card{
+      width: 25%;
+      display:di;
+    }
+  }
+
+ 
+>>>>>>> Stashed changes
