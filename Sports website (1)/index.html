@@ -128,7 +128,9 @@
                            
                         </ul>
 
-                        <div class="dropdown show">
+
+
+                        <!-- <div class="dropdown show">
                             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Sports
                             </a>
@@ -147,7 +149,31 @@
                               <a class="dropdown-item" href="athletics.html">Athletics</a>
                               <a class="dropdown-item" href="motorcycleracing.html">Motorcycle racing</a>
                             </div>
+                          </div> -->
+
+
+                          <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Search here</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                              <a href="about.html">About</a>
+                              <a href="#base">Base</a>
+                              <a href="home.html">Home</a>
+                              <a href="#contact">Contact</a>
+                              <a href="#custom">Custom</a>
+                              <a href="#support">Support</a>
+                              <a href="#tools">Tools</a>
+                            </div>
                           </div>
+                          
+
+
+
+
+
+
+
+                          
 
 
 
@@ -420,6 +446,34 @@
         </div>
     
       </footer>
+
+
+      <script>
+    
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        function filterFunction() {
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          div = document.getElementById("myDropdown");
+          a = div.getElementsByTagName("a");
+          for (i = 0; i < a.length; i++) {
+            txtValue = a[i].textContent || a[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              a[i].style.display = "";
+            } else {
+              a[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+
+
+
+
 
 
 
