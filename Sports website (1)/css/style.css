@@ -174,7 +174,7 @@
         padding: 8px 10px;
     }
 
-
+  }
 
 
 
@@ -183,16 +183,17 @@
 
 
 	
-}
+
 
 .container{
 	margin-top: 5%;
+  
 }
 
 
 .single-content{
 	position: relative;
-	transition: 3s;
+	transition: .3s;
 	box-shadow: 10px 20px 20px rgb(34, 32, 32);
 
 }
