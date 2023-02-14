@@ -54,117 +54,104 @@
 
 
 
-        
-       
         <div class="main-navbar shadow-sm sticky-top">
-            <div class="top-navbar">
-            <div class="container-fluid">
-            <div class="row">
-            <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
-            <h5 class="brand-name"><img src="images/sp-logo1.png" style="height: 50px; width: 130px; ">  </h5>
+          <div class="top-navbar">
+          <div class="container-fluid">
+          <div class="row">
+          <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+          <h5 class="brand-name"><img src="images/sp-logo1.png" style="height: 50px; width: 130px; ">  </h5>
+          </div>
+      
+          <div class="col-md-5 my-auto">
+      
+            <div class="input-group">
+              <div class="form-outline">
+                
+              <button onclick="myFunction()" class="dropbtn">Search here</button></div>
+      
+              <button type="button" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+      
+              <div id="myDropdown" class="dropdown-content">
+                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                <a class="dropdown-item" href="football.html">Football</a>
+                <a class="dropdown-item" href="swimming.html">Swimming</a>
+                <a class="dropdown-item" href="chess.html">Chess</a>
+                <a class="dropdown-item" href="badminton.html">Badminton</a>
+                <a class="dropdown-item" href="Billiards.html">Billiards</a>
+                <a class="dropdown-item" href="cricket.html">Cricket</a>
+                <a class="dropdown-item" href="Judo.html">Judo</a>
+                <a class="dropdown-item" href="Golf.html">Golf</a>
+                <a class="dropdown-item" href="tennis.html">Tennis</a>
+                <a class="dropdown-item" href="volleyball.html">Volleyball</a>
+                <a class="dropdown-item" href="athletics.html">Athletics</a>
+                <a class="dropdown-item" href="motorcycleracing.html">Motorcycle racing</a>
+              </div>
             </div>
-            <div class="col-md-5 my-auto">
-                <form role="search">
-                 <div class="input-group">
-                <input type="search" placeholder="Search here" class="form-control" />
-                <button class="btn bg-primary" type="submit">
-                <i class="fa fa-search" style="color: aliceblue;" ></i>
-                    </button>
-                    </div>
-                    </form>
-                    </div>
-                        <div class="col-md-4 my-auto">
-                        <ul class="nav justify-content-end">
-                                        
-                                       
-                            <a class="btn btn-primary btn-md btn-floating"
-                            style="background-color: rgb(33, 78, 201);" href="#"role="button"> <i class="fab fa-facebook-f"></i></a>
-        
-        
-        
-        
-                            <a class="btn btn-primary btn-md btn-floating"
-                            style="background-color: rgb(201, 166, 201);" href="#!"role="button"><i class="fab fa-instagram"></i></a>
-        
-                                    
-                            <a class="btn btn-primary btn-md btn-floating"
-                            style="background-color: rgb(44, 129, 179);" href="#!"role="button"> <i class="fab fa-twitter"></i></a>
-                  
-    
-                            <a class="btn btn-primary btn-md btn-floating"
-                            style="background-color: rgb(235, 69, 91);" href="#!"role="button"> <i class="fab fa-google"></i></a>
-        
-                            </ul>
-        
-                           
-        
-        
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid">
-                            <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Menu</a>
-                                    </li>
-                                  
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="news.html">News</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="worldcup.html">Worldcups</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="gallery.html">Gallery</a>
-                                    </li>
-                                   
-                                </ul>
-        
-                                <div class="dropdown show">
-                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Sports
-                                    </a>
-                                  
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                      <a class="dropdown-item" href="football.html">Football</a>
-                                      <a class="dropdown-item" href="swimming.html">Swimming</a>
-                                      <a class="dropdown-item" href="chess.html">Chess</a>
-                                      <a class="dropdown-item" href="badminton.html">Badminton</a>
-                                      <a class="dropdown-item" href="Billiards.html">Billiards</a>
-                                      <a class="dropdown-item" href="cricket.html">Cricket</a>
-                                      <a class="dropdown-item" href="Judo.html">Judo</a>
-                                      <a class="dropdown-item" href="Golf.html">Golf</a>
-                                      <a class="dropdown-item" href="tennis.html">Tennis</a>
-                                      <a class="dropdown-item" href="volleyball.html">Volleyball</a>
-                                      <a class="dropdown-item" href="athletics.html">Athletics</a>
-                                      <a class="dropdown-item" href="motorcycleracing.html">Motorcycle racing</a>
-                                    </div>
-                                  </div>
-        
-        
-        
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-       
+      
+                  </div>
+                      <div class="col-md-4 my-auto">
+                      <ul class="nav justify-content-end">
+                                      
+                                     
+                          <a class="btn btn-primary btn-md btn-floating"
+                          style="background-color: rgb(33, 78, 201);" href="#"role="button"> <i class="fab fa-facebook-f"></i></a>
+      
+                          <a class="btn btn-primary btn-md btn-floating"
+                          style="background-color: rgb(201, 166, 201);" href="#!"role="button"><i class="fab fa-instagram"></i></a>
+      
+                          <a class="btn btn-primary btn-md btn-floating"
+                          style="background-color: rgb(44, 129, 179);" href="#!"role="button"> <i class="fab fa-twitter"></i></a>
+                
+                         <a class="btn btn-primary btn-md btn-floating"
+                          style="background-color: rgb(235, 69, 91);" href="#!"role="button"> <i class="fab fa-google"></i></a>
+                      </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <nav class="navbar navbar-expand-lg">
+                      <div class="container-fluid">
+                          <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
+                          </a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+              <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="about.html">About</a>
+          <a href="news.html">News</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+           </div>
+      
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                      <a class="nav-link" href="index.html">Home</a></li>
+                                 
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="news.html">News</a></li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="about.html">About us</a></li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="contact.html">Contact us</a></li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="worldcup.html">Worldcups</a></li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="gallery.html">Gallery</a></li>
+                                    </ul>
+                          </div>
+                      </div>
+                  </nav>
+              </div>
+          
+             
+      
 
 <!-- header -->
 
@@ -401,6 +388,6 @@
     
     
     
-        
+          <script src="js/javascript.js"></script>      
     </body>
     </html>
